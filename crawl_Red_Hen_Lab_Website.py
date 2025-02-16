@@ -213,7 +213,7 @@ async def crawl_parallel(urls: List[str], max_concurrent: int = 5):
         await crawler.close()
 
 def get_pydantic_ai_docs_urls() -> List[str]:
-    """Get URLs from Pydantic AI docs sitemap."""
+    """Get URLs from redhenlab website sitemap."""
     # sitemap_url = "https://ai.pydantic.dev/sitemap.xml"
     sitemap_url = "https://www.xml-sitemaps.com/download/www.redhenlab.org-be92be485/sitemap.xml?view=1"
     

@@ -7,4 +7,3 @@ For this implementation, I specifically crawled the [LangChain](https://python.l
 
 ![RedHenLab](./StreamLit.png)
 
-In the image, you can see that Agentic RAG provides better results for Red Hen Lab compared to ChatGPT. It also delivers more recent information retrieving it from the database that ChatGPT cannot.

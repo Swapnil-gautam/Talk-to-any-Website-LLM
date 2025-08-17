@@ -105,8 +105,8 @@ async def run_agent_with_streaming(user_input: str):
 
 
 async def main():
-    st.title("Red Hen Lab AI Agentic RAG")
-    st.write("Ask any question about Red Hen Lab, I am here to guide you and make your reserach easier.")
+    st.title("Agentic RAG for LangChain")
+    st.write("Ask any question about LangChain, I am here to guide you and make your work easier.")
 
     # Initialize chat history in session state if not present
     if "messages" not in st.session_state:
